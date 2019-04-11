@@ -6,7 +6,7 @@ $home-image: url(../img/background.jpg);
 $background-opacity: .75;
 
 @mixin easeOut {
-  transition: all .25s ease-out;
+  transition: all 0.5s ease-out;
 }
 
 @mixin background {
@@ -14,15 +14,16 @@ $background-opacity: .75;
     &#bg-img {
       background: $home-image fixed;
       background-size: cover;
+
       &:after {
-        content: "";
+        content: '';
         position: absolute;
         top: 0;
         right: 0;
         width: 100%;
         height: 100%;
         z-index: -1;
-        background: rgba($dark, $background-opacity);
+        background: rgba($primary-color, $background-opacity);
       }
     }
   }
