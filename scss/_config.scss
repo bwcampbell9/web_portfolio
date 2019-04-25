@@ -30,6 +30,15 @@ $transition-time: 0.5s;
   }
 }
 
+// Set Text color
+@function set-text-color($color) {
+  @if (lightness($color) > 40) {
+    @return #000
+  } @else {
+    @return #fff
+  }
+}
+
 // media query mixins
 @mixin mediaSm {
   @media screen and (max-width: 500px) {
