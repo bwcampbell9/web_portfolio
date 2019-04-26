@@ -1,4 +1,4 @@
-# web_portfolio
+# Web Portfolio
 
 ## A responsive web portfolio to show off my projects and give general background information (still work in progress)
 
