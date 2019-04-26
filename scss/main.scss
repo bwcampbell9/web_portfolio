@@ -160,6 +160,13 @@ main {
   color: #333;
 }
 
+.btn-large {
+  @extend .btn;
+  background: lighten($primary-color, 50);
+  color: #333;
+  font-size: 18px;
+}
+
 #main-footer {
   text-align: center;
   padding: 1rem;
