@@ -148,14 +148,22 @@ main {
   main .icons {
     margin-top: 1rem; }
     main .icons a {
-      padding: 0.4rem; }
+      padding: 0.4rem;
+      transition: all 0.5s ease-out; }
       main .icons a:hover {
-        color: #2bffb7;
-        transition: all 0.5s ease-out; }
+        color: #2bffb7; }
   main#home {
     overflow: hidden; }
     main#home h1 {
       margin-top: 20vh; }
+  main .body-text {
+    color: #fff; }
+    main .body-text a {
+      color: #2bffb7;
+      text-decoration: underline;
+      transition: all 0.5s ease-out; }
+      main .body-text a:hover {
+        color: #009160; }
 
 .about-info {
   display: grid;

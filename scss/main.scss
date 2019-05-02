@@ -64,8 +64,8 @@ main {
 
       &:hover {
         color: $secondary-color;
-        @include easeOut();
       }
+      @include easeOut();
     }
   }
 
@@ -73,6 +73,23 @@ main {
     overflow: hidden;
     h1 {
       margin-top: 20vh;
+    }
+  }
+
+  // project page styling
+  .body-text {
+    color: set-text-color($primary-color);
+
+    // Make links pop and feel like they do something
+    a {
+      color: $secondary-color;
+      text-decoration: underline;
+
+      &:hover {
+        color: darken($secondary-color, 30);
+      }
+
+      @include easeOut();
     }
   }
 }
